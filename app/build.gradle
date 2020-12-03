@@ -61,7 +61,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.hjq:xxpermissions:9.2'
-    implementation 'com.github.bobbyen:phonics-sdk-android:v0.0.4-alpha2'
+    implementation 'com.github.bobbyen:phonics-sdk-android:v1.0.0-alpha1'
 
 
 }
