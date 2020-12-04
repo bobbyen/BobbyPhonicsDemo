@@ -15,5 +15,6 @@ class DemoApp : Application() {
     override fun onCreate() {
         super.onCreate()
         BobbyPhonicsSDK.instance.init(this)
+        BobbyPhonicsSDK.instance.initSingSound("","")
     }
 }

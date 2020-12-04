@@ -15,7 +15,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndk { abiFilters "armeabi-v7a" }
-
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -61,7 +61,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.hjq:xxpermissions:9.2'
-    implementation 'com.github.bobbyen:phonics-sdk-android:v1.0.0-alpha2'
+    implementation 'com.github.bobbyen:phonics-sdk-android:3df297cbec'
 
-
+    implementation "com.tencent.tbs.tbssdk:sdk:43939"
+    implementation "com.squareup.okhttp3:okhttp:4.4.0"
+    implementation ("com.singsound.library:evaluating:2.1.0")
 }
