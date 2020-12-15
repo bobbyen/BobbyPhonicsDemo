@@ -26,6 +26,17 @@ allprojects {
             url = uri('http://repo.singsound.com/repository/singsound_ginger_android_sdk/')
             allowInsecureProtocol = true
         }
+
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+        }
+        maven {
+            credentials {
+                username '5fd82ac4fc67065d09c1bee7'
+                password 'oMxokdIuJCJP'
+            }
+            url 'https://packages.aliyun.com/maven/repository/2009777-release-1tg52a/'
+        }
     }
 }
 
